@@ -142,6 +142,18 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
 
   }
 
+// to send notifications 
+  Future sendNotification() async {
+
+    final response = await Messaging.sendToAll(
+
+      title: "title ",
+
+      body: " body text ",
+
+      topic: token ID of user ,
+
+    );
 
 
 
