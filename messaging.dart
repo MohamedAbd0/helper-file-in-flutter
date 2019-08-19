@@ -7,6 +7,7 @@ class Messaging {
   static final Client client = Client();
 
 
+  //change this line to your key from firebase
   static const String serverKey =
       'AAAAjzBFSwU:APA91bH5-iyZnHC0Y-5t0NwTEdW8CWyw79Uccl7Q9VvLwBJU0LG2Ddi5xpVZUf-puZlRbg9_OvnGDTc2IbrRCL_jSpyEiFmmaWByIPdSraMKkizr7SAKAogRIVAl4eVENZhaM0wlFX5f';
 
