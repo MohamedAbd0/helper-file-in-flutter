@@ -4,7 +4,7 @@ import 'package:sqflite/sqflite.dart';
 class SqliteHelper {
   late Database db;
 
-  final String databaseName = 'gosport.db';
+  final String databaseName = 'myOwn.db';
 
   ///to open stream connection with db
   Future open(String path) async {
